@@ -12,6 +12,11 @@ buildscript {
     }
 }
 
+plugins {
+    // https://plugins.gradle.org/plugin/com.github.ben-manes.versions
+    id 'com.github.ben-manes.versions' version '0.28.0' apply true
+}
+
 allprojects {
     repositories {
         google()
