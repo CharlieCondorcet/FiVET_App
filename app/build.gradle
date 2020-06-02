@@ -1,5 +1,21 @@
 plugins {
+    // The android
     id 'com.android.application'
+
+    // https://plugins.gradle.org/plugin/com.zeroc.gradle.ice-builder.slice
+    id 'com.zeroc.gradle.ice-builder.slice' version '1.4.7' apply true
+
+}
+
+slice {
+    // The home of ice
+    iceHome = 'C:\\Program Files\\ZeroC\\Ice-3.7.3\\'
+
+    java {
+        // Files = [file("../slice/domain.ice")]
+        // args = "--debug --impl"
+        logger.lifecycle("Slicing file: ${$files}")
+    }
 }
 
 android {
