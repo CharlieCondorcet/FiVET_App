@@ -1,13 +1,13 @@
 # FivetApp
 
 
-  Server for the [FiVET](https://github.com/CharlieCondorcet/FiVET) project
+  App to [FiVET](https://github.com/CharlieCondorcet/FiVET) project
 
   **Android Studio  -  Java  -  ZeroC ICE  -  UCN**
 
 
 ## Description
-  Movile Application to handle server data from [FiVET](https://github.com/CharlieCondorcet/FiVET_Server) and show these data to the client through this app.
+  Mobile Application to handle server data from [FiVET](https://github.com/CharlieCondorcet/FiVET_Server) and show these data to the client through this app.
 
 
 ##  Status
